@@ -1,0 +1,14 @@
+
+.drawer-close{
+    transform: translateX(-120%);
+}
+
+.drawer-open{
+    transform: translateX(0);
+}
+
+.drawer{
+    transition: transform 0.3s ease-in-out;
+    z-index: 0;
+}
+
